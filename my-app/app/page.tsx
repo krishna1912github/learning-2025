@@ -12,6 +12,19 @@ export default function Home() {
           <a href="https://www.w3schools.com">this a link </a>
           <abbr title="World Health Organization">WHO</abbr>
           <button>Click me</button>
+          <strong>Bold text</strong>
+          <em>Italic text</em>
+          <q>Success is a journey, not a destination.</q>
+          <ul>
+            <li>coofee</li>
+            <li>tea</li>
+            <li>coke</li>
+          </ul>
+          <ol>
+            <li>coofee</li>
+            <li>tea</li>
+            <li>coke</li>
+          </ol>
           <table>
             <tr>
               <th>Name</th>
@@ -26,6 +39,19 @@ export default function Home() {
               <td>Name</td>
             </tr>
           </table>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name"></input>
+            <select name="gender">
+              <option selected="selected" value="male">
+                male
+              </option>
+              <option selected="selected" value="female">
+                female
+              </option>
+            </select>
+          </form>
+
         </body>
       </html>
     </div>
