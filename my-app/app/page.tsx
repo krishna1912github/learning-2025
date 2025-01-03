@@ -43,7 +43,7 @@ export default function Home() {
             <label for="name">Name:</label>
             <input type="text" name="name"></input>
             <select name="gender">
-              <option selected="selected" value="male">
+              <option selected={true} value="male">
                 male
               </option>
               <option selected="selected" value="female">
