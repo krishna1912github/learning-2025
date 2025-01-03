@@ -46,7 +46,7 @@ export default function Home() {
               <option selected={true} value="male">
                 male
               </option>
-              <option selected="selected" value="female">
+              <option selected={true} value="female">
                 female
               </option>
             </select>
