@@ -37,16 +37,17 @@ export default function Home() {
             <tr>
               <td>Name</td>
               <td>Name</td>
+              <td>Name</td>
             </tr>
           </table>
           <form>
-            <label for="name">Name:</label>
+            <label htmlFor="name">Name:</label>
             <input type="text" name="name"></input>
             <select name="gender">
-              <option selected="selected" value="male">
+              <option selected={true} value="male">
                 male
               </option>
-              <option selected="selected" value="female">
+              <option  selected={true} value="female">
                 female
               </option>
               <input checked="checked" name="newsletter" type="radio" value="daily" /> Daily <input name="newsletter" type="radio" value="weekly" /> Weekly<br />
