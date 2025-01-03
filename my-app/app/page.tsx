@@ -8,7 +8,7 @@ export default function Home() {
           <title>Title of the document</title>
         </head>
 
-        <body>
+        {/* <body>
           <a href="https://www.w3schools.com">this a link </a>
           <abbr title="World Health Organization">WHO</abbr>
           <button>Click me</button>
@@ -52,7 +52,7 @@ export default function Home() {
             </select>
           </form>
 
-        </body>
+        </body> */}
       </html>
     </div>
   );
