@@ -1,5 +1,5 @@
 import React from 'react'
-import { Fb } from './../asserts/iconSvg'
+import { Fb } from '../asserts/iconSvg'
 import Banner from './../asserts/Banner.png'
 import Image from 'next/image'
 import 'animate.css';

@@ -11,7 +11,7 @@ import { SiKeystone } from "react-icons/si";
 import { SiPrisma } from "react-icons/si";
 const skills = () => {
     return (
-        <div className="mt-10 lg:mt-14 px-8 gap-8 flex flex-col" >
+        <div className="mt-10 lg:mt-20 px-8 gap-8 flex flex-col lg:gap-14" >
             <div className='text-3xl lg:text-5xl'>
                 <div>
                     <p className='text-center'> My <span className='font-extrabold ' >Skills </span></p>
@@ -86,7 +86,8 @@ const skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-4 flex flex-col justify-center items-stretch lg:flex-row gap-4 ">
+
+                <div className="mt-4 hidden sm:block  flex-col justify-center items-stretch lg:flex-row gap-4  ">
                     <div className="">
                         <div className="flex lg:flex-col gap-12 ">
                             <div className=" group flex flex-col w-[160px] h-[160px] border-2 border-black lg:w-[200px] lg:h-[200px] hover:bg-black hover:text-white transition-colors duration-300 ">
@@ -108,7 +109,7 @@ const skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-4 flex flex-col justify-center items-stretch lg:flex-row gap-4 ">
+                <div className="mt-4 hidden sm:block  flex-col justify-center items-stretch lg:flex-row gap-4 ">
                     <div className="">
                         <div className="flex lg:flex-col gap-12 ">
                             <div className=" group flex flex-col w-[160px] h-[160px] border-2 border-black lg:w-[200px] lg:h-[200px] hover:bg-black hover:text-white transition-colors duration-300 ">
