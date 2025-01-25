@@ -1,15 +1,12 @@
 import React from 'react'
-import { SiPrisma } from "react-icons/si";
 import logo from "./../asserts/cloudactive-labs-logo.svg"
 import aaldura from "./../asserts/all.jpeg"
-import freelancer from "./../asserts/pngwing.com.png"
 import { SiFreelancer } from "react-icons/si";
-import { FaAlgolia } from "react-icons/fa6";
 import Image from 'next/image'
 const Experience = () => {
     let iconStyles = { color: "skyblue" };
     return (
-        <div className=" mt-10 lg:mt-20 px-8  flex flex-col lg:gap-14 bg-black" >
+        <div className=" mt-10 lg:mt-20 p-8  flex flex-col lg:gap-14 bg-black" >
             <div className='text-3xl lg:text-5xl'>
                 <div>
                     <p className='text-center text-white py-12'> My <span className='font-extrabold ' >Experience </span></p>
