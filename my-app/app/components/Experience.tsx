@@ -13,7 +13,7 @@ const Experience = () => {
                 </div>
             </div>
             <div>
-                <div className=" lg:px-11 flex flex-col gap-7 lg:gap-14" >
+                <div className=" lg:px-[6.5rem] flex flex-col gap-7 lg:gap-14" >
                     <div className="group hover:bg-slate-900 flex flex-col">
                         <div className="flex flex-col gap-4 border-2 w-full  border-white rounded-lg p-6 ">
                             <div className="flex flex-col gap-4">
