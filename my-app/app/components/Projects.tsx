@@ -5,22 +5,22 @@ import { CiShare1 } from "react-icons/ci";
 export const Projects = () => {
   return (
     <div>
-      <div className='bg-black flex flex-col gap-10  justify-evenly   mt-10'>
+      <div className='bg-black flex flex-col gap-10  justify-evenly py-10   mt-10'>
         <div className='text-3xl lg:text-5xl '>
           <div>
             <p className='text-center text-white py-8'> My <span className='font-extrabold ' >Projects </span></p>
           </div>
         </div>
 
-        <div className=' flex flex-col lg:gap-36 lg:flex-row px-8 lg:px-[164px]  '>
+        <div className=' flex flex-col lg:gap-36 lg:flex-row px-8 lg:px-[134px]  '>
           <div className=''>
             <Image
               src={me}
               alt="me"
-              className="lg: w-[730px] lg:h-[497px]"
+              className="lg: w-[930px] lg:h-[497px]"
             />
           </div>
-          <div className=' flex flex-col mt-10   gap-3 lg:gap-3 lg:py-20 text-justify text-base lg:text-xl max-w-[760px] '>
+          <div className=' flex flex-col mt-10  gap-3 lg:gap-3 lg:py-20 text-justify text-base lg:text-xl max-w-[720px] '>
             <div className='text-3xl lg:text-5xl'>
               <div>
                 <p className='text-white '>  <span className='font-extrabold ' >01 </span></p>
@@ -40,7 +40,7 @@ export const Projects = () => {
           </div>
         </div>
 
-        <div className=' flex flex-col  lg:gap-36 lg:flex-row-reverse px-8 lg:px-[164px]  '>
+        <div className=' flex flex-col  lg:gap-36 lg:flex-row-reverse px-8 lg:px-[134px]  '>
           <div className=''>
             <Image
               src={me}
@@ -67,15 +67,16 @@ export const Projects = () => {
 
           </div>
         </div>
-        <div className=' flex flex-col  lg:gap-36 lg:flex-row px-8 lg:px-[164px]  '>
+        
+        <div className=' flex flex-col lg:gap-36 lg:flex-row px-8 lg:px-[134px]  '>
           <div className=''>
             <Image
               src={me}
               alt="me"
-              className="lg: w-[730px] lg:h-[497px]"
+              className="lg: w-[930px] lg:h-[497px]"
             />
           </div>
-          <div className=' flex flex-col mt-10   gap-3 lg:gap-3 lg:py-20 text-justify text-base lg:text-xl max-w-[760px] '>
+          <div className=' flex flex-col mt-10  gap-3 lg:gap-3 lg:py-20 text-justify text-base lg:text-xl max-w-[720px] '>
             <div className='text-3xl lg:text-5xl'>
               <div>
                 <p className='text-white '>  <span className='font-extrabold ' >01 </span></p>
