@@ -14,7 +14,7 @@ const introduction = () => {
           <p> Based In <span className='font-extrabold' >India</span></p>
         </div>
         <div className="text-xl text-zinc-500 md:text-left text-justify">I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.   </div>
-      <div className="flex gap-4">
+      <div className="group flex gap-4 ">
         <Fb />
         <Fb />
         <Fb />
